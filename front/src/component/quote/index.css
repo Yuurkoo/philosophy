@@ -1,0 +1,36 @@
+.quote {
+  width: 350px;
+  height: 230px;
+  display: flex;
+  padding: 18px;
+  gap: 14px;
+  flex-direction: column;
+  background-color: #fffefe;
+  border-radius: 12px;
+  justify-content: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: box-shadow 1s;
+}
+
+.quote:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform-origin: 1s;
+}
+
+.quote__title {
+  font-size: 16px;
+}
+
+.quote__title {
+  color: #2d2d2d;
+}
+
+.quote__text {
+  font-size: 22px;
+  color: #2d2d2d;
+  font-weight: 600;
+}
+
+.quote__muted {
+  color: #2d2d2d;
+}

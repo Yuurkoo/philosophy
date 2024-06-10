@@ -1,0 +1,35 @@
+.menu ul li .arrow {
+  font-size: 14px;
+}
+
+.menu .sub-menu {
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  border-left: 1px solid #f6f6f6;
+}
+
+.menu .sub-menu li a {
+  padding: 10px 8px;
+  font-size: 14px;
+}
+
+.sub-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.sub-menu.open {
+  max-height: 200px;
+}
+
+.sub-menu li {
+  list-style-type: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.sub-menu.open li {
+  opacity: 1;
+}

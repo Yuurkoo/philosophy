@@ -1,0 +1,31 @@
+.setting-component {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ededed;
+  padding: 6px;
+  transition: box-shadow 1s;
+  border-radius: 12px;
+}
+
+.blank {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+.blank img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.blank strong {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.setting-component:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.8s;
+  cursor: pointer;
+}

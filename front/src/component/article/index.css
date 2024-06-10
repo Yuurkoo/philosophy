@@ -1,0 +1,23 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  width: 310px;
+
+  transition: box-shadow 0.9s;
+}
+
+.img {
+  border-radius: 14px;
+  width: fit-content;
+}
+
+.article:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: 0.9s;
+}

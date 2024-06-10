@@ -1,0 +1,89 @@
+.finder {
+  width: 100%;
+  height: auto;
+  background-color: #e7e6e6;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.statement {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  margin-top: 14px;
+  background-color: #f6f6f6;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.sub_title_statement {
+  font-weight: 500;
+}
+
+.area,
+.days {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.days {
+  margin-top: 14px;
+}
+
+.strong {
+  font-weight: 500;
+}
+
+.part {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.part img {
+  margin-right: 10px;
+}
+
+.part p {
+  margin: 0;
+}
+
+.day_text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.statement > span {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: 16px;
+}
+
+strong,
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+h2 {
+  margin-top: 10px;
+}
+
+strong {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}

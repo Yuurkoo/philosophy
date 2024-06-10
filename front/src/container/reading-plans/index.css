@@ -1,0 +1,187 @@
+.plans_section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  padding: 24px;
+  background-color: #f6f6f6;
+}
+
+.section {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  width: 98%;
+}
+
+.plans_variants {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 8px;
+  transition: background-color 1s;
+}
+
+.all_plans {
+  width: 70px;
+}
+
+.my_plans {
+  width: 120px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #fff;
+  transition: 1s;
+}
+
+.plans_baner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border-radius: 30px;
+}
+
+.plans_baner img {
+  width: 600px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.overhide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.overhide .sub_title,
+.overhide .caption,
+.overhide .info,
+.overhide .start {
+  margin: 8px 0;
+}
+
+.sub_title {
+  color: #d1d1d1;
+  font-size: 15px;
+}
+
+.info {
+  color: #d1d1d1;
+  font-size: 15px;
+  width: 170px;
+}
+
+.caption {
+  width: 240px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.start {
+  width: 120px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #4caf50;
+  margin-left: 40px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  transition: opacity 1s;
+}
+
+.start:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+
+.component {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .overhide {
+    padding: 10px;
+  }
+
+  .overhide .sub_title,
+  .overhide .caption,
+  .overhide .info,
+  .overhide .start {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+}
+/* ======================================================== */
+.antiquity {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.regular {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.philosophy-card {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #f6f6f6;
+  padding: 8px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+  transition: box-shadow 0.3s;
+  width: 100%;
+  max-width: 600px;
+}
+
+.philosophy-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+}
+
+@media (max-width: 600px) {
+  .philosophy-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  }
+
+  .philosophy-card__content {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .philosophy-card__text {
+    font-size: 14px;
+  }
+
+  .philosophy-card__icon {
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,19 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  gap: 10px;
+  padding: 24px;
+  background-color: #fff;
+  border-left: 1px solid #cecece;
+}
+
+.settings_convertor {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100%;
+  border-radius: 12px;
+  gap: 8px;
+}
