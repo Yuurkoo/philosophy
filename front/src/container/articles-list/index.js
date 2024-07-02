@@ -11,6 +11,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function ArticlesList({ title }) {
   const nav = useNavigate();
+
   const articleContainerRef = useRef(null);
 
   const scrollLeft = () => {
@@ -30,7 +31,6 @@ export default function ArticlesList({ title }) {
   return (
     <div className="articles_list">
       <Title>{title}</Title>
-
       <div className="slider">
         <button className="slider-button left" onClick={scrollLeft}>
           {"<"}
@@ -45,14 +45,12 @@ export default function ArticlesList({ title }) {
               img={article}
             />
           </a>
-
           <a
             style={{ color: "black", cursor: "pointer" }}
             onClick={() => nav("/meaning-death-in-nowdays")}
           >
             <Article text="Значення смерті в сучасному світі" img={death} />
           </a>
-
           <a
             style={{ color: "black", cursor: "pointer" }}
             onClick={() => nav("/story-repentance-avgustin")}
@@ -73,7 +71,7 @@ export default function ArticlesList({ title }) {
             onClick={() => nav("/article-rationalism")}
           >
             <Article
-              text=" Раціоналізм проти емпіризму, та як здобути евдемонію?"
+              text="Раціоналізм проти емпіризму, та як здобути евдемонію?"
               img={article2}
             />
           </a>

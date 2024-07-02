@@ -15,10 +15,13 @@
 
 @media (max-width: 600px) {
   .point {
-    flex-direction: column;
     align-items: flex-start;
     gap: 10px;
     height: auto;
+  }
+
+  .reading_card {
+    margin-top: 20px;
   }
 
   .head_plan {

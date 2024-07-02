@@ -11,7 +11,7 @@
   display: flex;
   gap: 20px;
   flex-direction: row;
-  width: 98%;
+  width: 100%;
 }
 
 .plans_variants {
@@ -27,14 +27,6 @@
   border-radius: 50px;
   padding: 8px;
   transition: background-color 1s;
-}
-
-.all_plans {
-  width: 70px;
-}
-
-.my_plans {
-  width: 120px;
 }
 
 .btn:hover {
@@ -53,7 +45,7 @@
 }
 
 .plans_baner img {
-  width: 600px;
+  max-width: 600px;
   height: auto;
   border-radius: 20px;
 }
@@ -165,7 +157,20 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
 }
 
+@media (max-width: 1160px) {
+  .section {
+    display: block;
+  }
+  .plans_baner img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 600px) {
+  .section {
+    display: block;
+  }
+
   .philosophy-card {
     flex-direction: column;
     align-items: flex-start;

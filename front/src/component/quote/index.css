@@ -34,3 +34,9 @@
 .quote__muted {
   color: #2d2d2d;
 }
+
+@media (max-width: 1000px) {
+  .quote {
+    width: 100%;
+  }
+}
