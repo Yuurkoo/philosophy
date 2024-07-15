@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/philosophy/static/css/main.9b92ba11.css",
-    "main.js": "/philosophy/static/js/main.815361c0.js",
+    "main.js": "/philosophy/static/js/main.a296bb5f.js",
     "static/media/third.svg": "/philosophy/static/media/third.6beb5ec3c610a3da1f13917c65d1a8bb.svg",
     "static/media/second.svg": "/philosophy/static/media/second.03cff163aa1bb1695406cf2ccb4ba33b.svg",
     "static/media/article-4.svg": "/philosophy/static/media/article-4.aac12786cc1cafe2d43bca3dfa58c0a3.svg",
@@ -49,10 +49,10 @@
     "static/media/task__done.svg": "/philosophy/static/media/task__done.c9d14f4cafc3d9f97b18.svg",
     "static/media/next.svg": "/philosophy/static/media/next.10799cde140e7d3886966e9348a37ef2.svg",
     "main.9b92ba11.css.map": "/philosophy/static/css/main.9b92ba11.css.map",
-    "main.815361c0.js.map": "/philosophy/static/js/main.815361c0.js.map"
+    "main.a296bb5f.js.map": "/philosophy/static/js/main.a296bb5f.js.map"
   },
   "entrypoints": [
     "static/css/main.9b92ba11.css",
-    "static/js/main.815361c0.js"
+    "static/js/main.a296bb5f.js"
   ]
 }
