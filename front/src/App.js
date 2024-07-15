@@ -33,7 +33,7 @@ import Meaning from "./container/meaning-death/Meaning";
 function App() {
   return (
     <div className="main--app">
-      <BrowserRouter>
+      <BrowserRouter basename="/philosophy">
         <FrontMenu />
         <Routes>
           <Route path="/" element={<MainContent />} />
