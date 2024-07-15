@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nodemon -e js,json,css ./index.js",
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "build": "npm i"
   },
   "dependencies": {
     "@babel/core": "^7.21.0",
