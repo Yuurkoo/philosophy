@@ -1,8 +1,14 @@
+.quote_cont {
+  display: flex;
+  width: max-content;
+}
+
 .quote {
-  width: 350px;
+  max-width: 330px;
   height: 230px;
   display: flex;
   padding: 18px;
+  padding-top: 5px;
   gap: 14px;
   flex-direction: column;
   background-color: #fffefe;
@@ -38,5 +44,13 @@
 @media (max-width: 1000px) {
   .quote {
     width: 100%;
+  }
+
+  .quote__title {
+    font-size: 14px;
+  }
+
+  .quote__text {
+    font-size: 18px;
   }
 }
