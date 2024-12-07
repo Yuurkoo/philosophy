@@ -56,3 +56,10 @@
   color: #bcbcbc;
   margin-bottom: 50px;
 }
+
+@media (max-width: 700px) {
+  .card-container {
+    display: flex;
+    width: 330px;
+  }
+}
